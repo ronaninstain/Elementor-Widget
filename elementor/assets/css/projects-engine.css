@@ -1,0 +1,331 @@
+/* Bundle Course CSS Style 1 */
+/* Sliders Css */
+
+.career-bundles-single {
+  background: #fff;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+.career-bundles-single img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px !important;
+  padding: 0 10px !important;
+}
+.bundle-course-title h2 {
+  text-align: left;
+  padding: 0 17px;
+  font-family: "Inter" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 131%;
+  color: #2b354e;
+}
+.bundle-course-features,
+.features-from-back-end {
+  text-align: left;
+  padding: 0 40px;
+  font-size: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  list-style-image: url();
+}
+.bundle-course-title {
+  height: 65px;
+}
+.bundle-course-price {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 10px;
+}
+
+.bundle-course-reviews {
+  display: flex;
+  padding: 20px;
+  margin-top: 0px;
+  justify-content: space-between;
+}
+.bundle-course-amm span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.7932px;
+  line-height: 27px;
+  color: #0071dc;
+}
+.bundle-course-amm del {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4803px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: rgba(237, 66, 102, 0.53);
+}
+.bundle-course-reviews a {
+  background: #0071dc;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+}
+.bundle-course-icon i {
+  color: #ffc34f;
+}
+.bundle-course-std {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #747474;
+}
+.mhr-career-bundle .bundle-course-std i {
+  border: 1px solid #747474;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 3px;
+  width: 25px;
+}
+.bundle-course-std img {
+  height: auto;
+  width: 26px;
+  margin-right: 5px;
+}
+
+.bundle-course-reviews .rating_sh_content .sh_rating {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.bundle-course-reviews .sh_rating-upper {
+  color: #fcc400;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.bundle-course-reviews .sh_rating-lower {
+  padding: 0;
+  display: flex;
+  z-index: 0;
+}
+
+.Sh-bundle-area .owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -20px !important;
+  display: block !important;
+  border: 0px solid black;
+}
+
+.Sh-bundle-area .owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -25px !important;
+  display: block !important;
+  border: 0px solid black;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav i {
+  font-size: 20px;
+  color: #000;
+  margin: 0 -15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav i:hover {
+  background: #0071dc;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.bundle-course-amm span {
+  color: #0071dc;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .bundle-course-reviews a {
+    padding: 10px 17px;
+    font-size: 7px;
+    display: block;
+  }
+}
+
+.athc-buntton a {
+  background: transparent;
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 30px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Poppins";
+  border: 1px solid #0071dc;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.Sh-bundle-area .career-bundles-single {
+  max-width: 385px;
+  max-height: 473px;
+}
+.Sh-bundle-area
+  .career-bundles-single
+  .bundle-content
+  .bundle-course-features
+  dd
+  li,
+.Sh-bundle-area .bundle-content .for-back-facility-list ul li {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #2b354e;
+  font-family: "Inter";
+}
+.Sh-bundle-area .bundle-course-price .bundle-course-amm span.amount {
+  color: #eb5b77;
+}
+.Sh-bundle-area .bundle-course-reviews a:hover {
+  color: #0071dc;
+  background: #fff;
+}
+
+/* Slider Style 2 */
+
+.home-featured-courses {
+  left: calc((100% - 1320px) / 2);
+  position: relative;
+}
+
+.euston-single-courses {
+  margin-bottom: 50px;
+  max-width: 300px;
+}
+
+.euston-single-courses .courses-img {
+  overflow: hidden;
+  transition: all ease 0.5s;
+}
+.euston-single-courses .courses-img img {
+  overflow: hidden;
+  transition: all ease 0.5s;
+}
+
+.home-featured-courses.owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  min-height: 224px;
+  object-fit: contain;
+}
+
+.euston-single-courses .courses-content h3 {
+  margin-top: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 74px;
+}
+
+.euston-single-courses .courses-content h3 a {
+  font-family: "Josefin Sans", sans-serif;
+  color: #0d0c0c;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px !important;
+  transition: all ease 0.5s;
+}
+
+.euston-single-courses .courses-content h3 a:hover {
+  color: #0071dc;
+}
+
+.euston-single-courses .courses-content .star-price {
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.euston-single-courses span.euston-course-price a {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.euston-single-courses .star-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.euston-single-courses .euston-course-price {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.euston-single-courses span.amount {
+  color: #0071dc;
+}
+.euston-single-courses .euston-course-date {
+  font-family: "Josefin Sans", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.custom-course-slider .owl-stage {
+  display: flex;
+}
+
+.custom-course-slider .owl-stage-outer {
+  overflow: hidden;
+}
+
+.euston-single-courses .bundle-course-reviews a:hover {
+  color: #0d0c0c;
+  background: #fec400;
+}
+
+.euston-single-courses .bundle-course-reviews a {
+  font-family: "Josefin Sans", Sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
